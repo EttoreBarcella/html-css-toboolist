@@ -35,6 +35,7 @@ h1{
     width: 800px;
     margin: auto;
     padding: 30px;
+    border-radius: 2%;
 }
 
 .box2{
@@ -71,6 +72,7 @@ p{
 .cross{
     border: 2px solid #ec746f;
     color: #ec746f;
+    
 }
 
 .blu, .arancione, .giallo, .verde, .rosa, .viola{
