@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -41,6 +42,14 @@ h1{
     width: 800px;
     margin: auto;
     margin-top: 50px;
+}
+
+div.box2 > div{
+    padding-bottom: 30px;
+}
+
+p{
+    padding-bottom: 20px;
 }
 
 .check{
