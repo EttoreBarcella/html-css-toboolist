@@ -4,8 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #f6f8f9;
+}
+
+/* header css */
+
 header{
     padding: 20px;
+    background-color: white;
 }
 
 .logo{
@@ -17,3 +24,67 @@ h1{
     vertical-align: middle;
     font-size: 40px;
 }
+
+/* /header css */
+
+/* main css */
+.box{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.check{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border: 2px solid #90d6c7;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    color: #90d6c7;
+}
+
+.cross{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border: 2px solid #ec746f;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    color: #ec746f;
+}
+
+.editorial{
+    color: white;
+    display: inline-block;
+    background-color: #45abea;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.q1{
+    color: white;
+    display: inline-block;
+    background-color: #9c72e4;
+    border-radius: 10px;
+    padding: 5px;
+} 
+
+.recruiting{
+    color: white;
+    display: inline-block;
+    background-color: #64c0a9;
+    border-radius: 10px;
+    padding: 5px;
+} 
+
+.mobile{
+    color: white;
+    display: inline-block;
+    background-color: #f29e33;
+    border-radius: 10px;
+    padding: 5px;
+} 
