@@ -29,18 +29,18 @@ h1{
 /* /header css */
 
 /* main css */
-.box2{
+
+.box, .box2{
     background-color: white;
     width: 800px;
     margin: auto;
-    margin-top: 5px;
+}
 
+.box2{
+    margin-top: 3px;
 }
 
 .box{
-    background-color: white;
-    width: 800px;
-    margin: auto;
     margin-top: 50px;
 }
 
@@ -53,32 +53,28 @@ p{
     padding-top: 5px;
 }
 
-.check{
+.check, .cross{
     display: inline-block;
     height: 25px;
     width: 25px;
-    border: 2px solid #90d6c7;
     border-radius: 50%;
     text-align: center;
     line-height: 25px;
+}
+
+.check{
+    border: 2px solid #90d6c7;
     color: #90d6c7;
 }
 
 .cross{
-    display: inline-block;
-    height: 25px;
-    width: 25px;
     border: 2px solid #ec746f;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 25px;
     color: #ec746f;
 }
 
-.blu{
+.blu, .arancione, .giallo, .verde, .rosa, .viola{
     color: white;
     display: inline-block;
-    background-color: #45abea;
     border-radius: 10px;
     padding: 5px;
 }
@@ -93,41 +89,26 @@ p{
 }
 
 .viola{
-    color: white;
-    display: inline-block;
     background-color: #9c72e4;
-    border-radius: 10px;
-    padding: 5px;
 } 
 
+
+.blu{
+    background-color: #45abea;
+}
+
 .verde{
-    color: white;
-    display: inline-block;
     background-color: #64c0a9;
-    border-radius: 10px;
-    padding: 5px;
 } 
 
 .arancione{
-    color: white;
-    display: inline-block;
     background-color: #f29e33;
-    border-radius: 10px;
-    padding: 5px;
 } 
 
 .rosa{
-    color: white;
-    display: inline-block;
     background-color: #d863a1;
-    border-radius: 10px;
-    padding: 5px;
 } 
 
 .giallo{
-    color: white;
-    display: inline-block;
     background-color: #b0c926;
-    border-radius: 10px;
-    padding: 5px;
 } 
