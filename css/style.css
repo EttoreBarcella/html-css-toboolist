@@ -28,6 +28,14 @@ h1{
 /* /header css */
 
 /* main css */
+.box2{
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    margin-top: 5px;
+
+}
+
 .box{
     background-color: white;
     width: 800px;
@@ -57,7 +65,7 @@ h1{
     color: #ec746f;
 }
 
-.editorial{
+.blu{
     color: white;
     display: inline-block;
     background-color: #45abea;
@@ -65,7 +73,16 @@ h1{
     padding: 5px;
 }
 
-.q1{
+.grigio{
+    color: grey;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.viola{
     color: white;
     display: inline-block;
     background-color: #9c72e4;
@@ -73,7 +90,7 @@ h1{
     padding: 5px;
 } 
 
-.recruiting{
+.verde{
     color: white;
     display: inline-block;
     background-color: #64c0a9;
@@ -81,7 +98,7 @@ h1{
     padding: 5px;
 } 
 
-.mobile{
+.arancione{
     color: white;
     display: inline-block;
     background-color: #f29e33;
@@ -89,7 +106,7 @@ h1{
     padding: 5px;
 } 
 
-.website{
+.rosa{
     color: white;
     display: inline-block;
     background-color: #d863a1;
@@ -97,7 +114,7 @@ h1{
     padding: 5px;
 } 
 
-.sales{
+.giallo{
     color: white;
     display: inline-block;
     background-color: #b0c926;
